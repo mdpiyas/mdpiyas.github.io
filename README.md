@@ -1,1 +1,0 @@
-# mdpiyas.github.io
