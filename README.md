@@ -49,8 +49,14 @@
         <p>Email: piayashossain192@gmail.com</p>
         <p>Phone: 01635753754</p>
         <div class="social-links">
-            <a href="https://www.facebook.com/share/19h6YEWy1D/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.facebook.com/share/19h6YEWy1D/" target="_blank">Facebook</a>
+            <a 
+               href="https://www.instagram.com/md_joherul_islam_piyas?igsh=Y3gyNTRsaXpsaXVi" target="_blank">Instagram</a>
+            <a  
+
+href="https://www.linkedin.com/in/md-piyas-73015227a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a 
+                href="https://github.com/mdpiyas" target="_blank">GitHub</a>
         </div>
     </div>
 </body>
