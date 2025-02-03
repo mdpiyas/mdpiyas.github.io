@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>md piyas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -102,17 +102,134 @@ href="https://www.linkedin.com/in/md-piyas-73015227a" target="_blank">LinkedIn</
         <p>Thank you for visiting. You are visitor number:</p>
         <p class="visitor-count" id="visitorCount">0</p>
     </div>
+</html>
 
-    <script>
-        // Visitor count using local storage
-        if (localStorage.getItem("visitorCount") === null) {
-            localStorage.setItem("visitorCount", 1);
-        } else {
-            let count = parseInt(localStorage.getItem("visitorCount")) + 1;
-            localStorage.setItem("visitorCount", count);
-        }
-        
-        document.getElementById("visitorCount").innerText = localStorage.getItem("visitorCount");
-    </script>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Joherul Islam Piyas - পরিচিতি</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MD Joherul Islam Piyas</h1>
+        <p>আমি একজন স্টুডেন্ট এবং সমাজকর্মী</p>
+        <nav>
+            <a href="index.html">হোম</a>
+            <a href="gallery.html">ফটো গ্যালারি</a>
+            <a href="about.html">আমার কথা</a>
+            <a href="career.html">চাকরি তথ্য</a>
+        </nav>
+    </header>
+    <main>
+        <p>আমি সমাজের জন্য কাজ করতে ভালোবাসি এবং নতুন কিছু শিখতে আগ্রহী।</p>
+    </main>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ফটো গ্যালারি</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>আমার কিছু ফটো</h1>
+        <nav>
+            <a href="index.html">হোম</a>
+            <a href="gallery.html">ফটো গ্যালারি</a>
+            <a href="about.html">আমার কথা</a>
+            <a href="career.html">চাকরি তথ্য</a>
+        </nav>
+    </header>
+    <main>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="ছবি ১">
+            <img src="photo2.jpg" alt="ছবি ২">
+            <img src="photo3.jpg" alt="ছবি ৩">
+        </div>
+    </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার কিছু কথা</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>আমার কথা</h1>
+        <nav>
+            <a href="index.html">হোম</a>
+            <a href="gallery.html">ফটো গ্যালারি</a>
+            <a href="about.html">আমার কথা</a>
+            <a href="career.html">চাকরি তথ্য</a>
+        </nav>
+    </header>
+    <main>
+        <p>আমি সবসময় নতুন কিছু শেখার চেষ্টা করি এবং সমাজের জন্য কাজ করতে ভালোবাসি।</p>
+        <img src="photo4.jpg" alt="আমার ছবি">
+    </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>চাকরি তথ্য</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>আমার চাকরি তথ্য</h1>
+        <nav>
+            <a href="index.html">হোম</a>
+            <a href="gallery.html">ফটো গ্যালারি</a>
+            <a href="about.html">আমার কথা</a>
+            <a href="career.html">চাকরি তথ্য</a>
+        </nav>
+    </header>
+    <main>
+        <p>আমি ভবিষ্যতে একটি ভালো ক্যারিয়ার গড়তে চাই।</p>
+        <h2>ধন্যবাদ!</h2>
+        <p>আমার ওয়েবসাইট ভিজিট করার জন্য আপনাকে ধন্যবাদ!</p>
+    </main>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
